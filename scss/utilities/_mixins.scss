@@ -1,0 +1,20 @@
+// ==============================================
+// MIXINS
+// ==============================================
+
+// create partials for media queries and flexbox settings
+
+// basic flexbox settings
+@mixin flex-box {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+// Media query mixin
+@mixin desktop {
+  @media($desktop-view) {
+    // styles for desktop in components folder
+    @content;
+  }
+}
