@@ -1,0 +1,39 @@
+// =========================================
+// PLACEHOLDERS
+// =========================================
+
+// create placeholders for links, images, headlines, nav items
+
+// links
+%link {
+  text-decoration: none;
+  color: $text-secondary;
+}
+
+// images
+%image {
+  display: block;
+}
+
+// headlines
+%headline-prim {
+  font-weight: bold;
+  color: $headline-primary;
+}
+
+%headline-sec {
+  font-weight: normal;
+  color: $headline-secondary;
+}
+
+// nav items
+%nav {
+  display: block;
+  text-decoration: none;
+  color: $text-primary;
+  &:hover {
+    background-color: $headline-primary;
+    color: $white;
+    border-radius: 5px;
+  }
+}
