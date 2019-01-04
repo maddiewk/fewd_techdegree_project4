@@ -2,13 +2,13 @@
 // VARIABLES
 // ==========================
 
-// at minimum, create variables for fonts, breakpoints and colors
 
 // fonts
 $font-stack: 'Asap', sans-serif;
 
-// breakpoints
-
+// Media query breakpoints
+$tablet-view: '(min-width: 768px)';
+$desktop-view: '(min-width: 1024px)';
 
 // colors
 
