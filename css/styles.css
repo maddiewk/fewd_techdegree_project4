@@ -2,6 +2,11 @@
   text-decoration: none;
 }
 
+.img--avatar {
+  display: block;
+  margin: auto;
+}
+
 .headline--primary {
   font-weight: bold;
   color: #3DF0C8;
@@ -49,6 +54,7 @@ p {
 .headline--secondary {
   color: #A5A5A5;
   font-weight: normal;
+  margin-left: 10px;
 }
 
 .card {
@@ -61,6 +67,7 @@ p {
 .blockquote {
   color: #A5A5A5;
   font-size: 1.3em;
+  line-height: 1.5;
   font-style: italic;
   padding-left: 10px;
   border-left: 6px solid #3DF0C8;
@@ -68,6 +75,28 @@ p {
 
 .grid__col--9 {
   width: 90%;
+}
+
+.img--frame {
+  border: 1px solid #A5A5A5;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 30em;
+  flex-direction: column;
+}
+.form .form__label--hidden {
+  display: none;
+}
+.form .form__input {
+  border: none;
+  border-bottom: 4px solid #3DF0C8;
+  margin: 1.5em 0;
 }
 
 /*# sourceMappingURL=styles.css.map */

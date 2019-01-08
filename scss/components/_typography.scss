@@ -9,6 +9,7 @@
 .headline--secondary {
   color: $text-primary;
   font-weight: normal;
+  margin-left: 10px;
 }
 
 .card {
@@ -21,6 +22,7 @@
 .blockquote {
   color: $text-primary;
   font-size: 1.3em;
+  line-height: 1.5;
   font-style: italic;
   padding-left: 10px;
   border-left: 6px solid $headline-primary;

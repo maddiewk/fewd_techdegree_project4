@@ -1,0 +1,17 @@
+// ====================================
+// FORM STYLES
+// ====================================
+
+.form {
+  @include flex-box;
+  width: 30em;
+  flex-direction: column;
+  & .form__label--hidden {
+    display: none;
+  }
+  & .form__input {
+    border: none;
+    border-bottom: 4px solid $headline-primary;
+    margin: 1.5em 0;
+  }
+}

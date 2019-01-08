@@ -1,0 +1,13 @@
+// ===================================
+// IMAGE STYLES
+// ===================================
+
+.img--avatar {
+  @extend %image;
+}
+
+.img--frame {
+  border: 1px solid $text-primary;
+  padding: 15px;
+  margin-bottom: 10px;
+}

@@ -9,20 +9,3 @@
 .nav {
   @extend %nav;
 }
-
-// .nav a {
-//     @extend %link;
-//     display: block;
-//     padding: 15px;
-//     width: 100%;
-//     color: $text-primary;
-//     &:hover {
-//       background: $headline-primary;
-//       color: $white;
-//       border-radius: 5px;
-//   }
-// }
-
-// .nav a {
-//   @extend %link;
-// }
