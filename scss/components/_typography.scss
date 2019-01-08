@@ -1,0 +1,27 @@
+// =======================================
+// TYPOGRAPHY
+// =======================================
+
+.headline--primary {
+  @extend %headline-prim;
+}
+
+.headline--secondary {
+  color: $text-primary;
+  font-weight: normal;
+}
+
+.card {
+  padding: 15px;
+  & .link {
+    color: $text-secondary;
+  }
+}
+
+.blockquote {
+  color: $text-primary;
+  font-size: 1.3em;
+  font-style: italic;
+  padding-left: 10px;
+  border-left: 6px solid $headline-primary;
+}

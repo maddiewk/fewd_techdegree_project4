@@ -1,5 +1,10 @@
-a {
+.grid__row a {
   text-decoration: none;
+}
+
+.headline--primary {
+  font-weight: bold;
+  color: #3DF0C8;
 }
 
 .nav {
@@ -30,6 +35,7 @@ ul {
 
 p {
   color: #A5A5A5;
+  line-height: 1.5;
 }
 
 .grid__row {
@@ -38,6 +44,26 @@ p {
   margin: auto;
   flex-direction: column;
   align-items: center;
+  width: 90%;
+}
+.headline--secondary {
+  color: #A5A5A5;
+  font-weight: normal;
+}
+
+.card {
+  padding: 15px;
+}
+.card .link {
+  color: #69E1FC;
+}
+
+.blockquote {
+  color: #A5A5A5;
+  font-size: 1.3em;
+  font-style: italic;
+  padding-left: 10px;
+  border-left: 6px solid #3DF0C8;
 }
 
 .grid__col--9 {
