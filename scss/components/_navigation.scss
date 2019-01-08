@@ -2,18 +2,14 @@
 // NAVIGATION
 // ========================================
 
+.grid__col--9 {
+  width: 90%;
+}
+
 .nav {
-  list-style-type: none;
-  li {
-  margin-bottom: 15px;
-  }
-  a {
-    @extend %link;
-    color: $text-primary;
-    padding: 15px;
-  }
-  [href="#type"] {
-    background-color: $headline-primary;
-    color: $white;
-  }
+  @extend %nav;
+}
+
+a {
+  @extend %link;
 }

@@ -28,11 +28,17 @@
 // nav items
 %nav {
   display: block;
-  text-decoration: none;
-  color: $text-primary;
-  &:hover {
-    background-color: $headline-primary;
-    color: $white;
-    border-radius: 5px;
+  list-style-type: none;
+  text-align: center;
+  a {
+    display: block;
+    padding: 15px;
+    width: 100%;
+    color: $text-primary;
+    &:hover {
+      background: $headline-primary;
+      color: $white;
+      border-radius: 5px;
+      }
   }
 }
