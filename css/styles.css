@@ -83,6 +83,24 @@ p {
   margin-bottom: 10px;
 }
 
+.grid__col--12 {
+  width: 100%;
+}
+.grid__col--12 .theme__colors {
+  display: block;
+  width: 100%;
+  text-transform: capitalize;
+  font-size: 1.3em;
+  color: #FFFFFF;
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.btn--success {
+  background: #38CE7D;
+}
+
 .form {
   display: flex;
   justify-content: space-between;

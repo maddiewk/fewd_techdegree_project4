@@ -1,3 +1,26 @@
 // =====================================
 // BUTTON STYLES
 // =====================================
+
+.grid__col--12 {
+  width: 100%;
+  & .theme__colors {
+    display: block;
+    width: 100%;
+    text-transform: capitalize;
+    font-size: 1.3em;
+    color: $white;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+  }
+}
+
+// .theme__colors {
+//   display: block;
+//   width: 100%;
+// }
+
+.btn--success {
+  background: $btn-success;
+}
