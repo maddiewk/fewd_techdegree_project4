@@ -4,19 +4,21 @@
 
 .headline--primary {
   @extend %headline-prim;
-  width: 60%;
-  margin-left: 20px;
+  width: 80%;
+  margin-left: 40px;
 }
 
 .headline--secondary {
   @extend %headline-sec;
+  @include flex-box;
   color: $text-primary;
   font-weight: normal;
-  // margin-left: 10px;
+  padding-top: 1.1em;
+  padding-bottom: 1.4em;
 }
 
 .card {
-  
+
   & .link {
     color: $text-secondary;
     font-weight: bold;
@@ -30,4 +32,5 @@
   font-style: italic;
   padding-left: 10px;
   border-left: 6px solid $headline-primary;
+  margin-bottom: 60px;
 }

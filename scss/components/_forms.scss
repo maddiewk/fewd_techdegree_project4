@@ -12,7 +12,11 @@
     width: 95%;
     align-self: center;
     border: none;
-    border-bottom: 5px solid $headline-primary;
-    margin: 25px 0;
+    border-bottom: 7px solid $headline-primary;
+    margin: 35px 0;
+    &::placeholder {
+      padding: 10px;
+      font-size: 0.9em;
+    }
   }
 }
