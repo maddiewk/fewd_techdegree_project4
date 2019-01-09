@@ -7,5 +7,28 @@
 }
 
 .nav {
-  @extend %nav;
+  @include desktop(large) {
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+  }
+
+  &__item {
+    @extend %nav;
+    @include desktop(large) {
+      display: inline-block;
+    }
+    a {
+      display: block;
+      padding: 15px;
+      width: 100%;
+      color: $text-primary;
+      &:hover {
+        background: $headline-primary;
+        color: $white;
+        border-radius: 5px;
+        }
+    }
+  }
 }

@@ -11,6 +11,9 @@
     display: flex;
     margin: auto;
     padding: 10px 0;
+    @include desktop(large) {
+      display: inline-block;
+    }
   }
   &--frame {
     border: 1px solid $text-primary;

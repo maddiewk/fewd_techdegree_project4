@@ -27,20 +27,20 @@
 
 // nav items
 %nav {
-  display: block;
+  // display: block;
   list-style-type: none;
   text-align: center;
-  a {
-    display: block;
-    padding: 15px;
-    width: 100%;
-    color: $text-primary;
-    &:hover {
-      background: $headline-primary;
-      color: $white;
-      border-radius: 5px;
-      }
-  }
+  // a {
+  //   display: block;
+  //   padding: 15px;
+  //   width: 100%;
+  //   color: $text-primary;
+  //   &:hover {
+  //     background: $headline-primary;
+  //     color: $white;
+  //     border-radius: 5px;
+  //     }
+  // }
 }
 
 // basic button styles

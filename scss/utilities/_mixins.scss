@@ -14,9 +14,11 @@
 }
 
 // Media query mixin
-@mixin desktop {
-  @media($desktop-view) {
-    // styles for desktop in components folder
-    @content;
+@mixin desktop($point) {
+  @if $point == 'large' {
+    @media(min-width: $desktop) {
+      @content;
+    }
   }
+
 }
