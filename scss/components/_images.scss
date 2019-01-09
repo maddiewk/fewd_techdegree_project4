@@ -2,23 +2,19 @@
 // IMAGE STYLES
 // ===================================
 
-.img--avatar {
-  @extend %image;
-}
 
-.img--frame {
-  border: 1px solid $text-primary;
-  padding: 15px;
-  margin-bottom: 10px;
+.img {
+  &--avatar{
+    @extend %image;
+  }
+  &--logo {
+    display: flex;
+    margin: auto;
+    padding: 10px 0;
+  }
+  &--frame {
+    border: 1px solid $text-primary;
+    padding: 15px;
+    margin-bottom: 10px;
+  }
 }
-
-// .img {
-//   &--avatar {
-//     @extend %image;
-//   }
-//   &--frame {
-//     border: 1px solid $text-primary;
-//     padding: 15px;
-//     margin-bottom: 10px;
-//   }
-// }

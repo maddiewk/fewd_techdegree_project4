@@ -4,19 +4,22 @@
 
 .headline--primary {
   @extend %headline-prim;
+  width: 60%;
+  margin-left: 20px;
 }
 
 .headline--secondary {
   @extend %headline-sec;
   color: $text-primary;
   font-weight: normal;
-  margin-left: auto;
+  // margin-left: 10px;
 }
 
 .card {
-  padding: 15px;
+  
   & .link {
     color: $text-secondary;
+    font-weight: bold;
   }
 }
 
