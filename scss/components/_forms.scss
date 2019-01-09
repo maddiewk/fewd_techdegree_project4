@@ -4,8 +4,10 @@
 
 .form {
   @include flex-box;
-  width: 30em;
-  flex-direction: column;
+  width: 50%;
+  & .headline--secondary {
+    margin-left: auto;
+  }
   & .form__label--hidden {
     display: none;
   }

@@ -43,3 +43,24 @@
       }
   }
 }
+
+// basic button styles
+%btn {
+  width: 90%;
+  text-transform: capitalize;
+  font-size: 1.3em;
+  color: $white;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+%grid {
+  padding: 12px;
+  border-radius: 5px;
+  margin: 5px 0;
+  color: $text-grid;
+}

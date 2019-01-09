@@ -2,14 +2,69 @@
 // GRID
 // ============================================
 
-.grid__row {
-  @include flex-box;
-  flex-direction: column;
-  align-items: center;
-  width: 90%;
-  a {
-    @extend %link;
-  }
-}
 
 // grid row colors
+
+.grid {
+  &__row {
+    @include flex-box;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 50px;
+    a {
+      @extend %link;
+    }
+  }
+
+    &__col--12 {
+      @include flex-box;
+      &.theme__colors {
+        @extend %grid;
+        background: $grid-12;
+      }
+    }
+
+    &__col--6 {
+      @include flex-box;
+      &.theme__colors {
+        @extend %grid;
+        background: $grid-6;
+      }
+    }
+    &__col--4 {
+      @include flex-box;
+      &.theme__colors {
+        @extend %grid;
+        background: $grid-4;
+      }
+    }
+    &__col--3 {
+      @include flex-box;
+      &.theme__colors {
+        @extend %grid;
+        background: $grid-3;
+      }
+    }
+    &__col--5 {
+      @include flex-box;
+      &.theme__colors {
+        @extend %grid;
+        background: $grid-5;
+      }
+    }
+    &__col--7 {
+      @include flex-box;
+      &.theme__colors {
+        @extend %grid;
+        background: $grid-7;
+      }
+    }
+    &__col--8 {
+      @include flex-box;
+      &.theme__colors {
+        @extend %grid;
+        background: $grid-8;
+      }
+    }
+  }

@@ -7,9 +7,10 @@
 }
 
 .headline--secondary {
+  @extend %headline-sec;
   color: $text-primary;
   font-weight: normal;
-  margin-left: 10px;
+  margin-left: auto;
 }
 
 .card {
