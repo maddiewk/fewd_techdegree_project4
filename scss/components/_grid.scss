@@ -4,21 +4,21 @@
 
 .container {
   @include flex-box;
-}
+
 @include med-qry(med) {
   .grid__col--12 {
+    // flex-direction: row;
     & .card {
       margin-left: -4em;
     }
   }
 }
+}
 // grid row colors
 
 
 .grid {
-
   &__row {
-
     @include med-qry(med) {
       flex-direction: row;
     }
@@ -37,6 +37,11 @@
       &.theme__colors {
         @extend %grid;
         background: $grid-12;
+
+        @include med-qry(med) {
+          width: 100%;
+          text-align: center;
+        }
       }
     }
 
@@ -45,8 +50,9 @@
       &.theme__colors {
         @extend %grid;
         background: $grid-6;
+        }
       }
-    }
+
     &__col--4 {
       @include flex-box;
       &.theme__colors {
@@ -83,3 +89,10 @@
       }
     }
   }
+
+  [class*="grid__col--"] {
+    &.theme__colors {
+      margin: 0 10px;
+      text-align: center;
+    }
+}

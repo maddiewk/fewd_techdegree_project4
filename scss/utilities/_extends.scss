@@ -27,20 +27,8 @@
 
 // nav items
 %nav {
-  // display: block;
   list-style-type: none;
   text-align: center;
-  // a {
-  //   display: block;
-  //   padding: 15px;
-  //   width: 100%;
-  //   color: $text-primary;
-  //   &:hover {
-  //     background: $headline-primary;
-  //     color: $white;
-  //     border-radius: 5px;
-  //     }
-  // }
 }
 
 // basic button styles
@@ -55,6 +43,10 @@
   margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
+  
+  @include med-qry(med) {
+    margin: 15px;
+  }
 }
 
 %grid {
