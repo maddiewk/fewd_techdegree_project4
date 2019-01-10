@@ -6,6 +6,7 @@
 .img {
   &--avatar{
     @extend %image;
+
   }
   &--logo {
     display: flex;
@@ -19,5 +20,11 @@
     border: 1px solid $text-primary;
     padding: 15px;
     margin-bottom: 40px;
+
+    @include med-qry(med) {
+      width: 60%;
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
 }

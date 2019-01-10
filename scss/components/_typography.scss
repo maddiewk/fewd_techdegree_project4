@@ -9,6 +9,7 @@
 }
 
 .headline--secondary {
+  // border: 2px solid green;
   @extend %headline-sec;
   @include flex-box;
   color: $text-primary;
