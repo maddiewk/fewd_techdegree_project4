@@ -4,15 +4,32 @@
 
 .grid__col--9 {
   width: 90%;
+  // @include desktop(large) {
+  //   border: 2px dashed blue;
+  //   flex-direction: row;
+  //   flex-wrap: wrap;
+  //   width: 50%;
+  // }
+}
+
+.grid__col--3 {
+  // @include desktop(large) {
+  //   border: 2px solid yellow;
+  //   flex-direction: row;
+  //   width: 50%;
+  //   align-self: flex-end;
+  // }
 }
 
 .nav {
-  @include desktop(large) {
-    position: absolute;
-    display: inline-block;
-    width: 100%;
-    text-align: right;
-  }
+  // @include desktop(large) {
+  //   display: flex;
+  //   flex-direction: row;
+    // width: 100%;
+    // text-align: right;
+    // border: 2px solid pink;
+    // width: 50%;
+  //}
 
   &__item {
     @extend %nav;

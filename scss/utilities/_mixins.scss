@@ -13,7 +13,7 @@
   flex-direction: column;
 }
 
-// color themes for buttons and grids
+// color themes for buttons
 @mixin bg-colors($map) {
   @each $theme, $color in $map {
     &--#{$theme} {

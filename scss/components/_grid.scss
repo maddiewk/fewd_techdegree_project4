@@ -2,13 +2,18 @@
 // GRID
 // ============================================
 
+.container {
+  @include flex-box;
+}
 
 // grid row colors
 
 .grid {
   &__row {
+    @include desktop(large) {
+      flex-direction: row;
+    }
     @include flex-box;
-    flex-direction: column;
     align-items: center;
     width: 100%;
     margin-bottom: 45px;
