@@ -13,6 +13,15 @@
   flex-direction: column;
 }
 
+// color themes for buttons and grids
+@mixin bg-colors($map) {
+  @each $theme, $color in $map {
+    &--#{$theme} {
+      background-color: $color;
+    }
+  }
+}
+
 // Media query mixin
 @mixin desktop($point) {
   @if $point == 'large' {

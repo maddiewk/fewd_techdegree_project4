@@ -586,21 +586,20 @@ p {
 }
 
 .btn--default {
-  background: #69E1FC;
+  background-color: #69E1FC;
 }
 .btn--success {
-  background: #38CE7D;
+  background-color: #38CE7D;
 }
 .btn--error {
-  background: #E76D6D;
+  background-color: #E76D6D;
 }
 .btn--warning {
-  background: #DA6743;
+  background-color: #DA6743;
 }
 .btn--info {
-  background: #836DB1;
+  background-color: #836DB1;
 }
-
 .form {
   display: flex;
   justify-content: space-between;
