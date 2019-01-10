@@ -5,12 +5,21 @@
 .container {
   @include flex-box;
 }
-
+@include med-qry(med) {
+  .grid__col--12 {
+    & .card {
+      margin-left: -4em;
+    }
+  }
+}
 // grid row colors
 
+
 .grid {
+
   &__row {
-    @include desktop(large) {
+
+    @include med-qry(med) {
       flex-direction: row;
     }
     @include flex-box;
@@ -24,6 +33,7 @@
 
     &__col--12 {
       @include flex-box;
+
       &.theme__colors {
         @extend %grid;
         background: $grid-12;

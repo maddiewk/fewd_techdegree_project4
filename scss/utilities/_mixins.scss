@@ -23,9 +23,14 @@
 }
 
 // Media query mixin
-@mixin desktop($point) {
+@mixin med-qry($point) {
   @if $point == 'large' {
     @media(min-width: $desktop) {
+      @content;
+    }
+  }
+  @else if $point == 'med' {
+    @media(min-width: $tablet) {
       @content;
     }
   }

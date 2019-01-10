@@ -434,6 +434,11 @@ p {
   flex-direction: column;
 }
 
+@media (min-width: 768px) {
+  .grid__col--12 .card {
+    margin-left: -4em;
+  }
+}
 .grid__row {
   display: flex;
   justify-content: space-between;
@@ -557,8 +562,9 @@ p {
 }
 
 @media (min-width: 768px) {
-  .nav__item {
-    display: inline-block;
+  .nav {
+    display: flex;
+    margin: auto;
   }
 }
 .nav__item a {
@@ -612,6 +618,11 @@ p {
   flex-direction: column;
   width: 100%;
 }
+@media (min-width: 768px) {
+  .form {
+    width: 90%;
+  }
+}
 .form .form__label--hidden {
   display: none;
 }
@@ -621,6 +632,11 @@ p {
   border: none;
   border-bottom: 7px solid #3DF0C8;
   margin: 35px 0;
+}
+@media (min-width: 768px) {
+  .form .form__input {
+    width: 85%;
+  }
 }
 .form .form__input::placeholder {
   padding: 10px;

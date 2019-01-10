@@ -18,7 +18,9 @@
 }
 
 .card {
-
+  @include med-qry(med) {
+    // width: 90%;
+  }
   & .link {
     color: $text-secondary;
     font-weight: bold;
