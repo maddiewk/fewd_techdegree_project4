@@ -439,6 +439,10 @@ p {
   flex-direction: column;
 }
 @media (min-width: 768px) {
+  .container [class*=grid__col--].theme__colors {
+    margin: 0 10px;
+    text-align: center;
+  }
   .container .grid__col--12 .card {
     margin-left: -4em;
   }
@@ -495,6 +499,11 @@ p {
 .grid__col--4.theme__colors {
   background: #86E1EC;
 }
+@media (min-width: 768px) {
+  .grid__col--4.theme__colors {
+    width: 50%;
+  }
+}
 .grid__col--3 {
   display: flex;
   justify-content: space-between;
@@ -515,6 +524,11 @@ p {
 .grid__col--5.theme__colors {
   background: #85DE94;
 }
+@media (min-width: 768px) {
+  .grid__col--5.theme__colors {
+    width: 60%;
+  }
+}
 .grid__col--7 {
   display: flex;
   justify-content: space-between;
@@ -525,6 +539,12 @@ p {
 .grid__col--7.theme__colors {
   background: #F39898;
 }
+@media (min-width: 768px) {
+  .grid__col--7.theme__colors.centered {
+    width: 50%;
+    margin: auto;
+  }
+}
 .grid__col--8 {
   display: flex;
   justify-content: space-between;
@@ -534,11 +554,6 @@ p {
 }
 .grid__col--8.theme__colors {
   background: #D89675;
-}
-
-[class*=grid__col--].theme__colors {
-  margin: 0 10px;
-  text-align: center;
 }
 
 .headline--primary {
